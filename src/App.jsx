@@ -23,7 +23,7 @@ const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
 const APPWRITE_TABLE = import.meta.env.VITE_APPWRITE_TABLE;
 const APPWRITE_ENDPOINT = import.meta.env.VITE_APPWRITE_ENDPOINT;
 
-// 👇 provjera env varijabli
+
 console.log("ENV CHECK:", {
   PROJECT_ID,
   DATABASE_ID,
